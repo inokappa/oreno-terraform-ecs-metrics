@@ -1,0 +1,14 @@
+[
+  {
+    "environment": [],
+    "name": "yes",
+    "image": "centos:centos6",
+    "cpu": 100,
+    "portMappings": [],
+    "memory": 100,
+    "command": [
+       "sh", "-c", "yes > /dev/null"
+    ],
+    "essential": true
+  }
+]
